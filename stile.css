@@ -90,7 +90,26 @@ background-color: #6c9018;
 .apps_1{
     color: black;
     font-size: 165px;
+    padding-left: 300px;
 }
-.image{
-
+.image1{
+    padding-left: 300px;
+}
+.name1{
+    color: black;
+    font-size: 100px;
+padding-left: 520px;
+}
+.apps_2{
+    color: black;
+    font-size: 165px;
+    padding-left: 300px;
+}
+.image2{
+    padding-left: 300px;
+}
+.name2{
+    color: black;
+    font-size: 100px;
+padding-left: 520px;
 }
