@@ -113,3 +113,14 @@ padding-left: 520px;
     font-size: 100px;
 padding-left: 495px;
 }
+.apps{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(84, 165, 212);
+}
