@@ -1,8 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
 }
+
 .header{
     width: 100%;
     height: 104px;
@@ -12,11 +12,12 @@
 position: relative;
 }
 .container{
-    width: 1200px;
+    width: 100%;
     height: 100%;
     display: flex;
 }
 .left{
+    padding-left: 50px;
     width: 260px;
     height: 100%;
     display: flex;
@@ -93,7 +94,11 @@ background-color: #6c9018;
     padding-left: 300px;
 }
 .image1{
-    padding-left: 300px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
 }
 .name1{
     color: black;
@@ -106,7 +111,12 @@ padding-left: 520px;
     padding-left: 300px;
 }
 .image2{
-    padding-left: 300px;
+    
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
+     width: 40%;
+    
 }
 .name2{
     color: black;
@@ -114,7 +124,13 @@ padding-left: 520px;
 padding-left: 495px;
 }
 .apps{
-    background-color: #1a9fff;
+    background-color: #1a66ff;
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
 }
 .cheats1{
     color: black;
@@ -125,4 +141,8 @@ padding-left: 495px;
     color: black;
     font-size: 165px;
     padding-left: 300px;
+}
+.charity{
+
+    
 }
