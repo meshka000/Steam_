@@ -60,41 +60,7 @@
         <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="cheats2">download</a>
     </div>
     <div class="charity">
-      <a href="https://boosty.to/charity.to"><img src="img/78da5bd1d60d60f6e4495.jpg" alt="">jjjjjjjj</a>
+      <a href="https://boosty.to/charity.to"><img src="img/78da5bd1d60d60f6e4495.jpg" alt="">jjjj</a>
     </div>
-
-<!-- Шаг 1: Подключите библиотеку -->
-<script src="https://accounts.google.com/gsi/client" async defer></script>
-
-<!-- Шаг 2: Кнопка входа -->
-<div id="g_id_onload"
-     data-client_id="ВАШ_CLIENT_ID"
-     data-login_uri="https://ваш-сайт.com/auth/callback"
-     data-auto_prompt="false">
-</div>
-
-<div class="g_id_signin"
-     data-type="standard"
-     data-size="large"
-     data-theme="outline"
-     data-text="sign_in_with"
-     data-shape="rectangular"
-     data-logo_alignment="left">
-</div>
-
-<!-- Шаг 3: Обработка ответа -->
-<script>
-  function handleCredentialResponse(response) {
-    // Отправка credential на ваш сервер
-    fetch('/auth/google', {
-      method: 'POST',
-      body: JSON.stringify({ token: response.credential })
-    })
-  }
-  
-  // Добавьте в div:
-  // data-callback="handleCredentialResponse"
-</script>
-    
 </body>
 </html> 
