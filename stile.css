@@ -1,28 +1,32 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 .header{
     width: 100%;
     height: 104px;
     background-color: #171d25;
-position: relative;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 .container{
     width: 100%;
+    max-width: 1200px;
     height: 100%;
     display: flex;
 }
 .left{
-    padding-left: 50px;
-    width: 260px;
+    width: 22%;
     height: 100%;
     display: flex;
     align-items: center;
+    padding-left: 2%;
 }
 .center{
-    width: 615px;
+    width: 51%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -30,19 +34,20 @@ position: relative;
     font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
 .right{
-    width: 295px;
+    width: 25%;
     height: 100%;
     padding-top: 10px;
     display: flex;
-
+    justify-content: flex-end;
+    padding-right: 2%;
 }
 .logo{
-width: 176px;
-height: 44px;
+    width: 176px;
+    height: 44px;
 }
 a{
     color: white;
-    font-size: 15px;
+    font-size: 0.9375rem; /* 15px */
     text-decoration: none;
 }
 a:hover{
@@ -51,89 +56,67 @@ a:hover{
 }
 .btm{
     display: flex;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 8px;
     background-color: #5c7e10;
     color: #e5e4dc;
     width: 160px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
 }
 .btm:hover{
     cursor: pointer;
     color: white;
-background-color: #6c9018;
+    background-color: #6c9018;
+}
+.modal-parent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .modal_1{
-    width: 133px;
+    width: 11vw; /* 133px */
     height: 177px;
     background-color: #3d4450;
-    position: absolute;
-    top: 60px;
-    left: 275px;
     display: none;
 }
 .logo2{
     height: 21px;
 }
 .modal_2{
-    width: 133px;
+    width: 11vw; /* 133px */
     height: 207px;
     background-color: #3d4450;
-    position: absolute;
-    top: 100px;
-    left: 500px;
-    display: none; 
+    display: none;
 }
-.apps_1{
+.apps_1, .apps_2, .cheats2 {
     color: black;
-    font-size: 165px;
-    padding-left: 300px;
+    font-size: clamp(3rem, 12vw, 10rem);
+    text-align: center;
+    margin: 20px 0;
 }
-.image1{
-    
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
+.image1, .image2{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
 }
-.name1{
+.name1, .name2 {
     color: black;
-    font-size: 100px;
-padding-left: 520px;
+    font-size: clamp(2rem, 8vw, 6rem);
+    text-align: center;
+    margin: 20px 0;
 }
-.apps_2{
+.cheats1{
     color: black;
-    font-size: 165px;
-    padding-left: 300px;
-}
-.image2{
-    
-        display: block;
-        margin-left: auto;
-    margin-right: auto;
-     width: 40%;
-    
-}
-.name2{
-    color: black;
-    font-size: 100px;
-padding-left: 495px;
+    font-size: clamp(2.5rem, 10vw, 8rem);
+    text-align: center;
+    margin: 20px 0;
 }
 .apps{
     background-color: #1a66ff;
 }
-.cheats1{
-    color: black;
-    font-size: 140px;
-    padding-left: 225px;
-}
-.cheats2{
-    color: black;
-    font-size: 165px;
-    padding-left: 300px;
-}
 .charity{
- background-color: #1a66ff;
- width: 40%;
+    background-color: #1a66ff;
+    width: 40%;
+    margin: 0 auto;
 }
