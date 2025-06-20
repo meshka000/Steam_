@@ -94,7 +94,7 @@ a:hover{
     margin: 0 auto;
     width: 40%;
 }
-.name1, .name2 .apps_1, .apps_2, .cheats2{
+.name1, .name2, .apps_1, .apps_2, .cheats2{
     color: black;
     font-size: clamp(2rem, 8vw, 6rem);
     text-align: center;
