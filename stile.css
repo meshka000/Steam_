@@ -89,19 +89,12 @@ a:hover{
     background-color: #3d4450;
     display: none;
 }
-.apps_1, .apps_2, .cheats2 {
-    color: black;
-    font-size: clamp(3rem, 12vw, 10rem);
-    text-align: center;
-    margin: 20px 0;
-    text-align: center;
-}
 .image1, .image2{
     display: block;
     margin: 0 auto;
     width: 40%;
 }
-.name1, .name2 {
+.name1, .name2 .apps_1, .apps_2, .cheats2{
     color: black;
     font-size: clamp(2rem, 8vw, 6rem);
     text-align: center;
