@@ -94,6 +94,7 @@ a:hover{
     font-size: clamp(3rem, 12vw, 10rem);
     text-align: center;
     margin: 20px 0;
+    text-align: center;
 }
 .image1, .image2{
     display: block;
