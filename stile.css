@@ -117,9 +117,8 @@ a:hover{
 }
 .charity{
     background-color: #1a66ff;
-    width: 5%;
     margin: 0 auto;
 }
 .donate{
-     width: 5%;
+background-size: 5%;
 }
