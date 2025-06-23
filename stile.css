@@ -94,13 +94,13 @@ a:hover{
     margin: 0 auto;
     width: 40%;
 }
-.name1, .name2, .download_1, .download_2{
+.name1, .name2, .download_1, .download_2, .cheats2{
     color: black;
     font-size: clamp(2rem, 8vw, 6rem);
     text-align: center;
     margin: 20px 0;
 }
-.apps_1, .apps_2, .cheats2{
+.apps_1, .apps_2{
     text-align: center;
 }
 .cheats1{
