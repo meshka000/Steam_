@@ -45,11 +45,6 @@
     width: 176px;
     height: 44px;
 }
-a{
-    color: white;
-    font-size: 0.9375rem; /* 15px */
-    text-decoration: none;
-}
 a:hover{
     color: #1a9fff;
     text-decoration: underline;
