@@ -113,5 +113,6 @@ a:hover{
     background-color: #1a66ff;
 }
 .donate{
- font-size: clamp(2.5rem, 10vw, 8rem);
+ width: 50%;
+height: 50%;
 }
