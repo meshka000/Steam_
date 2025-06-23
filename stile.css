@@ -94,7 +94,12 @@ a:hover{
     margin: 0 auto;
     width: 40%;
 }
-.name1, .name2, .download_1, .download_2, .cheats2{
+.name1{
+      color: black;
+    font-size: clamp(2rem, 8vw, 6rem);
+    text-align: center;
+}
+.name2, .download_1, .download_2, .cheats2{
     color: black;
     font-size: clamp(2rem, 8vw, 6rem);
     text-align: center;
